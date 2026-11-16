@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import numpy as np
 
 def main():
-    model_path = r"C:\Users\SRIKANTH\Downloads\yolo11x.pt"
+    model_path = r"C:\Users\SRIKANTH\Downloads\yolo11x.pt"// edit the model path
     print("Loading YOLO model...")
     try:
         model = YOLO(model_path)
