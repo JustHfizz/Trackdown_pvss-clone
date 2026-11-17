@@ -1,2 +1,2 @@
 # Trackdown_pvss
-live bot link https://web.telegram.org/k/#@pvss_210bot
+live bot link https://t.me/pvss_210bot
