@@ -23,7 +23,7 @@ app.post(`/bot${process.env.BOT}`, (req, res) => {
 app.set("view engine", "ejs");
 
 //Modify your URL here
-var hostURL="https://trackdown-pvss.onrender.com";
+var hostURL="https://trackdown-pvss-clone.fly.dev/";
 
 
 
