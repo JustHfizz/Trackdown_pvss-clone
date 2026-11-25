@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for trackdown-pvss-clone on 2026-11-24T22:26:14Z
+# fly.toml app configuration file generated for trackdown-pvss-clone on 2026-11-25T01:38:54Z
 #
 # See https://docs.fly.io/reference/configuration for information about how to use this file.
 #
@@ -11,8 +11,8 @@ kill_timeout = '4s'
   PORT = "8080"
 
 [http_service]
-  auto_start_machines = false
-  auto_stop_machines = 'suspend'
+  auto_start_machines = true
+  auto_stop_machines = 'off'
   force_https = false
   internal_port = 8080
   min_machines_running = 1
